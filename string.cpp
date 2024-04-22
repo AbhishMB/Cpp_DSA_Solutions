@@ -143,7 +143,7 @@ int main(){
   char c ='A';
   int n = c;
   int m = n+32;
-  cout<<(char)m<<endl;
+  cout<<"m is "<<(char)m<<endl;
 
   char x = (char) (32+(int)c);
   cout<<x<<endl;
@@ -169,10 +169,12 @@ int main(){
 
     cout<< (char)('a'+6)<<endl;
   string o;
-    getline(cin,o); ///string imput
-    cout<<o<<endl;
-    getline()
-
+   // getline(cin,o); ///string imput
+   // cout<<o<<endl;
+   // getline(cin,o,',');
+   // cout<<o<<endl;
+    
+    cout<<o+"str"<<endl;
   
 
   return 0;
