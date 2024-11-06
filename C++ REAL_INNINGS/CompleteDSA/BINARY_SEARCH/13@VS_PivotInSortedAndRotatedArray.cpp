@@ -13,7 +13,7 @@ int PivotInSortAndRoatedArray(int a[],int n)
     int mid=s+(e-s)/2;
     while(s<e)
     {
-        if(a[mid]>a[mid-1])
+        if(a[mid]>=a[0])
         {
             s=mid+1;
         }
@@ -22,7 +22,7 @@ int PivotInSortAndRoatedArray(int a[],int n)
         }
          mid=s+(e-s)/2;
     }
-    return s;
+    return e;
 }
 
 int main()

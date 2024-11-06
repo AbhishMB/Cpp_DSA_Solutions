@@ -52,12 +52,9 @@ int main()
     InsertAtTail(tail,55);
     InsertAtTail(tail,65);
 
-
-
     //printing
     Print(head);
-
-
+    
     return 0;
 
 }    

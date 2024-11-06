@@ -39,6 +39,7 @@ void Print(Node* &head)
 int main()
 {
     Node *node1 = new Node(10);
+    Node *temp;
     //cout<<node1 ->data<<endl;
     //cout<<node1 ->next<<endl;
     
